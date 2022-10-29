@@ -15,3 +15,27 @@ body {
 .body-wrapper {
   overflow: hidden;
 }
+
+@media screen and (max-width: '767px') {
+  [class*='__container'] {
+    max-width: 480px;
+    margin: 0px auto;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: '768px') {
+  [class*='__container'] {
+    width: 768px;
+    margin: 0px auto;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: '1200px') {
+  [class*='__container'] {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0 15px;
+  }
+}
