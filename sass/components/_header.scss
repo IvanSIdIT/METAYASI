@@ -1,3 +1,20 @@
+.header__wrapper {
+}
+.header {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.test {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .navigation {
   display: flex;
   @media screen and (max-width: 1080px) {

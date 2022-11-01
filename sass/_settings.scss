@@ -2,6 +2,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -22,35 +26,36 @@ body {
   background-color: transparent;
 }
 
-.body-wrapper {
+.body {
   overflow: hidden;
 }
 
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 767px) {
-  [class*='__container'] {
-    max-width: 480px;
-    margin: 0px auto;
-    padding: 0 15px;
-  }
-}
+// @media screen and (max-width: 767px) {
+//   [class*='__container'] {
+//     max-width: 480px;
+//     margin: 0px auto;
+//     padding: 0 15px;
+//   }
+// }
 
-@media screen and (min-width: 768px) {
-  [class*='__container'] {
-    width: 768px;
-    margin: 0px auto;
-    padding: 0px 15px;
-  }
-}
+// @media screen and (min-width: 768px) {
+//   [class*='__container'] {
+//     width: 768px;
+//     margin: 0px auto;
+//     padding: 0px 15px;
+//   }
+// }
 
-@media screen and (min-width: 1200px) {
-  [class*='__container'] {
-    width: 1200px;
-    margin: 0px auto;
-    padding: 0 15px;
-  }
-}
+// @media screen and (min-width: 1200px) {
+//   [class*='__container'] {
+//     width: 1200px;
+//     margin: 0px auto;
+//     padding: 0 15px;
+//   }
+// }
