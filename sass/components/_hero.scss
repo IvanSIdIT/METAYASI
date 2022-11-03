@@ -1,5 +1,24 @@
 .hero__wrapper {
   position: relative;
-  padding-top: 225px;
+
   background: linear-gradient(360deg, #01e0ff 0%, #006ded 64.58%, #004fe9 83.44%, #004ada 90.16%);
+}
+
+.hero {
+  padding: 225px 15px 40px;
+
+  &__text {
+    color: #fff;
+    letter-spacing: -0.02em;
+    @include font(500, 32px, 40em, 32em);
+    margin: 0 0 25px 0;
+  }
+
+  &__span {
+    color: var(--primary-span-color);
+  }
+
+  &__button {
+    background-color: #f8fbfd;
+  }
 }
