@@ -223,6 +223,9 @@ body {
 
 :root {
   --primary-span-color: #181e28;
+  --primary-blue-color: #00d4ff;
+  --primary-text-color: #4f5a6a;
+  --secondary-text-color: #181e28;
 }
 
 .header {
@@ -279,11 +282,17 @@ body {
   font-weight: 500;
   font-size: 32px;
   line-height: 1.25;
-  margin: 0 0 25px 0;
+  margin: 0 0 35px 0;
 }
 .hero__span {
   color: var(--primary-span-color);
 }
 .hero__button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
   background-color: #f8fbfd;
+  color: var(--secondary-text-color);
+  border-radius: 8px;
+  padding: 10px 50px;
 }/*# sourceMappingURL=styles.css.map */

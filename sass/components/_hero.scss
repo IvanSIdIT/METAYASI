@@ -11,7 +11,7 @@
     color: #fff;
     letter-spacing: -0.02em;
     @include font(500, 32px, 40em, 32em);
-    margin: 0 0 25px 0;
+    margin: 0 0 35px 0;
   }
 
   &__span {
@@ -19,6 +19,10 @@
   }
 
   &__button {
+    @include font(400, 20px, 32em, 20em);
     background-color: #f8fbfd;
+    color: var(--secondary-text-color);
+    border-radius: 8px;
+    padding: 10px 50px;
   }
 }
