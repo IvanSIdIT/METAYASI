@@ -234,7 +234,7 @@ body {
           justify-content: space-between;
 }
 
-.test {
+.mob__wrapper {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
