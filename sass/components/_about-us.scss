@@ -1,0 +1,11 @@
+.about-us {
+  &__title {
+    @include font(500, 24px, 32em, 24em);
+    margin: 0 0 30px 0;
+  }
+
+  &__item {
+    @include font(400, 16px, 24em, 16em);
+    margin: 0 0 30px 0;
+  }
+}
