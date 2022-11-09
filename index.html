@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>METAYASI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:regular,500" rel="stylesheet" />
   </head>
@@ -67,6 +68,23 @@
                 <li class="about-us__item"></li>
                 <li class="about-us__item"></li>
               </ul>
+
+              <!-- Slider main container -->
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
             </section>
           </div>
         </div>
@@ -75,5 +93,8 @@
     <div class="footer__wrapper">
       <footer class="footer"></footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./JS/script.js"></script>
   </body>
 </html>
