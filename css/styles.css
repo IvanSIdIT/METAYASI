@@ -344,9 +344,13 @@ body {
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
   border-radius: 8px;
+  width: 240px;
 }
 .slider__item:not(:first-child) {
   height: 216px;
+}
+.slider__item:not(:last-child) {
+  margin-right: 5px;
 }
 .slider__title {
   font-weight: 500;

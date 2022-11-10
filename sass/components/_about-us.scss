@@ -24,6 +24,10 @@
     &:not(:first-child) {
       height: 216px;
     }
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+    width: 240px;
   }
   &__title {
     @include font(500, 16px, 24em, 16em);
