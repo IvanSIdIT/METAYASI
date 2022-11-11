@@ -354,4 +354,23 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.principles {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.principles__title {
+  color: var(--primary-span-color);
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 1.1666666667;
+  margin: 0 0 50px 0;
+}
+.principles__type {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3333333333;
+  color: var(--primary-blue-color);
+  margin: 0 0 15px 0;
 }/*# sourceMappingURL=styles.css.map */

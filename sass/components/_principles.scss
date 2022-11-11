@@ -1,0 +1,30 @@
+.principles {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  &__item {
+    margin: 0 0 50px 0;
+  }
+}
+
+.principles__item {
+  margin-bottom: 50px;
+  display: none;
+}
+
+&__title {
+  color: var(--primary-span-color);
+  @include font(500, 47px, 56em, 48em);
+  margin: 0 0 50px 0;
+}
+
+&__type {
+  @include font(500, 24px, 32em, 24em);
+  color: var(--primary-blue-color);
+  margin: 0 0 15px 0;
+}
+
+&__text {
+  @include font(400, 16px, 24em, 16em);
+
+  color: var(--primary-text-color);
+}
