@@ -3,4 +3,4 @@ new Swiper('.swiper', {
   slidesPerView: 1.35,
 });
 
-new Swiper('.swiper-2');
+new Swiper('.swiper-2', {});
