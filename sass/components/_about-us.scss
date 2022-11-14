@@ -18,6 +18,7 @@
     @include font(500, 80px, 120em, 80em);
     text-align: center;
   }
+
   &__item {
     padding: 25px;
     background-color: var(--primary-blue-color);
@@ -26,9 +27,8 @@
     &:not(:first-child) {
       height: 216px;
     }
-
-    width: 240px;
   }
+
   &__title {
     @include font(500, 16px, 24em, 16em);
   }

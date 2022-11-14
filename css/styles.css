@@ -352,7 +352,6 @@ body {
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
   border-radius: 8px;
-  width: 240px;
 }
 .slider__item:not(:first-child) {
   height: 216px;
@@ -391,8 +390,9 @@ body {
   color: var(--primary-text-color);
 }
 
-.swiper-slide-2 {
-  width: 200px;
+.leaders__slider {
+  width: 100%;
+  margin-right: 0 !important;
 }
 
 .leaders__container {
