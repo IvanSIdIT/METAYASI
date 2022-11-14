@@ -199,6 +199,10 @@ h6 {
   font-size: inherit;
 }
 
+.body-wrapper {
+  overflow: hidden;
+}
+
 body {
   font-family: Poppins, sans-serif;
   font-size: 20px;
@@ -388,5 +392,9 @@ body {
 }
 
 .swiper-slide-2 {
-  background-color: var(--primary-blue-color);
+  width: 200px;
+}
+
+.leaders__container {
+  min-width: 0;
 }/*# sourceMappingURL=styles.css.map */
