@@ -20,16 +20,22 @@
   }
 
   &__item {
+    min-width: 240px;
     padding: 25px;
     background-color: var(--primary-blue-color);
     backdrop-filter: blur(4px);
     border-radius: 8px;
-    &:not(:first-child) {
-      height: 216px;
+    &:not(:last-child) {
+      margin-right: 5px;
     }
   }
 
   &__title {
     @include font(500, 16px, 24em, 16em);
   }
+}
+
+.test-wrapper {
+  display: flex;
+  overflow: auto;
 }

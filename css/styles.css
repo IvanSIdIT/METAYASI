@@ -347,19 +347,27 @@ body {
   text-align: center;
 }
 .slider__item {
+  min-width: 240px;
   padding: 25px;
   background-color: var(--primary-blue-color);
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
   border-radius: 8px;
 }
-.slider__item:not(:first-child) {
-  height: 216px;
+.slider__item:not(:last-child) {
+  margin-right: 5px;
 }
 .slider__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.test-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
 }
 
 .principles {
