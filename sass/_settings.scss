@@ -34,6 +34,11 @@ body {
   overflow: hidden;
 }
 
+.primary__title {
+  @include font(500, 48px, 56em, 48em);
+  margin: 0 0 50px 0;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -44,7 +49,7 @@ body {
   [class*='__container'] {
     max-width: 360px;
     margin: 0px auto;
-    padding: 0 15px;
+    padding: 0 px;
   }
 }
 

@@ -5,10 +5,19 @@
 }
 
 .leaders {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &__title {
+    color: var(--secondary-text-color);
+  }
   &__list {
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
   }
 
   &__item {
@@ -22,14 +31,16 @@
 
   &__img {
     border-radius: 8px;
+    margin: 0 0 20px 0;
   }
 
   &__name {
     color: var(--secondary-text-color);
     @include font(500, 20px, 28em, 20em);
+    margin: 0 0 10px 0;
   }
 
-  &__text {
+  &__job {
     color: var(--primary-text-color);
     @include font(400, 15px, 22em, 15em);
   }
