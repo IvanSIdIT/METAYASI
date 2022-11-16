@@ -415,11 +415,13 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
 }
-.leaders__item {
-  width: calc((100% - 30px) / 3);
-}
 .leaders__item:not(:last-child) {
   margin: 0 15px 0 0;
+}
+@media screen and (min-width: 759px) {
+  .leaders__item {
+    width: calc((100% - 30px) / 3);
+  }
 }
 .leaders__img {
   border-radius: 8px;
@@ -429,4 +431,10 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.4;
+}
+.leaders__text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4666666667;
 }/*# sourceMappingURL=styles.css.map */

@@ -12,14 +12,12 @@
   }
 
   &__item {
-    width: calc((100% - 2 * 15px) / 3);
-
     &:not(:last-child) {
       margin: 0 15px 0 0;
     }
-    // @media screen and (min-width: '768px') {
-    //   margin: 0 65px 0 0;
-    // }
+    @media screen and (min-width: '759px') {
+      width: calc((100% - 2 * 15px) / 3);
+    }
   }
 
   &__img {
@@ -29,5 +27,10 @@
   &__name {
     color: var(--secondary-text-color);
     @include font(500, 20px, 28em, 20em);
+  }
+
+  &__text {
+    color: var(--primary-text-color);
+    @include font(400, 15px, 22em, 15em);
   }
 }
