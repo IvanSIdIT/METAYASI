@@ -35,8 +35,9 @@ body {
 }
 
 .primary__title {
-  @include font(500, 48px, 56em, 48em);
   margin: 0 0 50px 0;
+
+  // @include font(500, 48px, 56em, 48em);
 }
 
 * {
