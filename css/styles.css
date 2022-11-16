@@ -367,7 +367,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: auto;
+  overflow-x: auto;
 }
 
 .principles {
