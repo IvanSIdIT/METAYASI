@@ -1,0 +1,33 @@
+.test-wrapper {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.leaders {
+  &__list {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  &__item {
+    width: calc((100% - 2 * 15) / 3);
+
+    &:not(:last-child) {
+      margin: 0 15px 0 0;
+    }
+    // @media screen and (min-width: '768px') {
+    //   margin: 0 65px 0 0;
+    // }
+  }
+
+  &__img {
+    border-radius: 8px;
+  }
+
+  &__name {
+    color: var(--secondary-text-color);
+    @include font(500, 20px, 28em, 20em);
+  }
+}
