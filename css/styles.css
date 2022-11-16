@@ -220,6 +220,9 @@ body {
 
 .primary__title {
   margin: 0 0 50px 0;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1666666667;
 }
 
 * {
@@ -233,7 +236,7 @@ body {
   [class*=__container] {
     max-width: 360px;
     margin: 0px auto;
-    padding: 0 px;
+    padding: 0 15px;
   }
 }
 @media screen and (min-width: 760px) {
@@ -251,6 +254,7 @@ body {
   }
 }
 :root {
+  --secondary-background-color: #f8fbfd;
   --primary-blue-color: #00d4ff;
   --primary-text-color: #4f5a6a;
   --secondary-text-color: #181e28;
@@ -414,6 +418,10 @@ body {
 .leaders {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: var(--secondary-background-color);
+}
+.leaders__wrapper {
+  background-color: var(--secondary-background-color);
 }
 .leaders__title {
   color: var(--secondary-text-color);
@@ -452,4 +460,42 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.4666666667;
+}
+
+.projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.projects__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0 0 50px 0;
+}
+.projects__item {
+  padding: 8px 125px 16px 8px;
+}
+.projects__item:not(:last-child) {
+  margin: 0 10px 0 0;
+}
+.projects__img {
+  margin: 0 0 15px 0;
+}
+.projects__type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.projects__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3333333333;
+  color: var(--primary-text-color);
+  margin: 0 0 50px 0;
+}
+.projects__text-second {
+  color: var(--primary-blue-color);
+  margin: 0 0 0 0;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,7 @@
 @import './vendor.scss';
+@import './mixins.scss';
 @import './settings.scss';
 @import './vars.scss';
-@import './mixins.scss';
 
 //components
 @import './components/header.scss';
@@ -9,4 +9,5 @@
 @import './components/about-us.scss';
 @import './components/principles.scss';
 @import './components/leaders.scss';
+@import './components/projects.scss';
 @import './components/footer.scss';

@@ -37,7 +37,7 @@ body {
 .primary__title {
   margin: 0 0 50px 0;
 
-  // @include font(500, 48px, 56em, 48em);
+  @include font(500, 48px, 56em, 48em);
 }
 
 * {
@@ -50,7 +50,7 @@ body {
   [class*='__container'] {
     max-width: 360px;
     margin: 0px auto;
-    padding: 0 px;
+    padding: 0 15px;
   }
 }
 
