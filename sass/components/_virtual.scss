@@ -1,0 +1,45 @@
+.virtual {
+  &__wrapper {
+    background: radial-gradient(216.43% 100% at 50% 100%, #5200ff 0%, #180660 100%);
+  }
+
+  &__list {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 0 50px 0;
+  }
+
+  &__item {
+    padding: 8px 125px 16px 8px;
+
+    margin: 0 10px 0 0;
+    background: rgba(248, 251, 253, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+
+  &__img {
+    margin: 0 0 15px 0;
+  }
+
+  &__type {
+    color: #ffffff;
+    @include font(400, 16px, 24em, 16em);
+  }
+
+  &__text {
+    margin: 0 0 50px 0;
+    @include font(400, 24px, 32em, 24em);
+    color: #ffffff;
+  }
+
+  &__text-second {
+    margin: 0 0 0 0;
+    color: var(--primary-blue-color);
+  }
+
+  &__title {
+    color: #ffffff;
+  }
+}
