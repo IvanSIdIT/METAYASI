@@ -1,1 +1,11 @@
+.data {
+  &__item {
+    margin: 0 10px 0 0;
+    padding: 8px 125px 16px 8px;
+  }
 
+  &__type {
+    color: var(--primary-text-color);
+    @include font(400, 16px, 24em, 16em);
+  }
+}

@@ -208,14 +208,19 @@ body {
   font-size: 20px;
 }
 
+.primary__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0 0 50px 0;
+}
+
 .button-reset {
   border: none;
   cursor: pointer;
   background-color: transparent;
-}
-
-.body {
-  overflow: hidden;
 }
 
 .primary__title {
@@ -223,6 +228,19 @@ body {
   font-weight: 500;
   font-size: 48px;
   line-height: 1.1666666667;
+}
+
+.primary__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3333333333;
+  color: var(--primary-text-color);
+  margin: 0 0 50px 0;
+}
+
+.secondary__text {
+  color: var(--primary-blue-color);
+  margin: 0 0 0 0;
 }
 
 * {
@@ -243,14 +261,14 @@ body {
   [class*=__container] {
     width: 760px;
     margin: 0px auto;
-    padding: 0px 40px;
+    padding: 50px 40px;
   }
 }
 @media screen and (min-width: 1230px) {
   [class*=__container] {
     width: 1230px;
     margin: 0px auto;
-    padding: 0 15px;
+    padding: 50px 15px;
   }
 }
 :root {
@@ -462,14 +480,6 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.projects__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
-  margin: 0 0 50px 0;
-}
 .projects__item {
   padding: 8px 125px 16px 8px;
 }
@@ -484,29 +494,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.projects__text {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.3333333333;
-  color: var(--primary-text-color);
-  margin: 0 0 50px 0;
-}
-.projects__text-second {
-  color: var(--primary-blue-color);
-  margin: 0 0 0 0;
-}
 
 .virtual__wrapper {
   background: -o-radial-gradient(50% 100%, 216.43% 100%, #5200ff 0%, #180660 100%);
   background: radial-gradient(216.43% 100% at 50% 100%, #5200ff 0%, #180660 100%);
-}
-.virtual__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
-  margin: 0 0 50px 0;
 }
 .virtual__item {
   padding: 8px 125px 16px 8px;
@@ -537,4 +528,15 @@ body {
 }
 .virtual__title {
   color: #ffffff;
+}
+
+.data__item {
+  margin: 0 10px 0 0;
+  padding: 8px 125px 16px 8px;
+}
+.data__type {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }/*# sourceMappingURL=styles.css.map */

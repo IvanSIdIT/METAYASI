@@ -3,13 +3,6 @@
     background: radial-gradient(216.43% 100% at 50% 100%, #5200ff 0%, #180660 100%);
   }
 
-  &__list {
-    display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    margin: 0 0 50px 0;
-  }
-
   &__item {
     padding: 8px 125px 16px 8px;
 
