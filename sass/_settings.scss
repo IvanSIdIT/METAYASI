@@ -29,6 +29,9 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   margin: 0 0 50px 0;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
 }
 
 .button-reset {
@@ -63,7 +66,7 @@ body {
 
 @media screen and (max-width: 759px) {
   [class*='__container'] {
-    max-width: 360px;
+    max-width: 759px;
     margin: 0 auto;
     padding: 50px 15px;
   }

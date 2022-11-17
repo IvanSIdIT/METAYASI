@@ -216,6 +216,9 @@ body {
   overflow-y: hidden;
   margin: 0 0 50px 0;
 }
+.primary__list::-webkit-scrollbar {
+  width: 0;
+}
 
 .button-reset {
   border: none;
@@ -252,7 +255,7 @@ body {
 
 @media screen and (max-width: 759px) {
   [class*=__container] {
-    max-width: 360px;
+    max-width: 759px;
     margin: 0 auto;
     padding: 50px 15px;
   }
@@ -476,20 +479,21 @@ body {
   line-height: 1.4666666667;
 }
 
-.projects {
+.crypto-projects {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.projects__item {
+.crypto-projects__item {
   padding: 8px 125px 16px 8px;
+  border-radius: 8px;
 }
-.projects__item:not(:last-child) {
+.crypto-projects__item:not(:last-child) {
   margin: 0 10px 0 0;
 }
-.projects__img {
+.crypto-projects__img {
   margin: 0 0 15px 0;
 }
-.projects__type {
+.crypto-projects__type {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;

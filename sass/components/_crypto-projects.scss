@@ -1,9 +1,11 @@
-.projects {
+.crypto-projects {
   padding-top: 50px;
   padding-bottom: 50px;
 
   &__item {
     padding: 8px 125px 16px 8px;
+
+    border-radius: 8px;
     &:not(:last-child) {
       margin: 0 10px 0 0;
     }
