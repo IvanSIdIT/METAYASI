@@ -1,4 +1,5 @@
 .about-us {
+  border-radius: 24px;
   &__title {
     margin: 0 0 30px 0;
     @include font(500, 24px, 32em, 24em);
