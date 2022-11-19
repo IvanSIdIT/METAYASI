@@ -1,5 +1,50 @@
+.send-us {
+  &__title {
+    margin: 0 0 50px 0;
+    @include font(500, 24px, 32em, 24em);
+  }
+
+  span {
+    color: var(--primary-blue-color);
+  }
+}
+
 .form {
-  &__name {
+  &__input {
+    display: block;
+    max-width: 390px;
+    padding: 15px;
     margin: 0 0 15px 0;
+    border-radius: 8px;
+    background: #e9edf2;
+    border: none;
+
+    &::placeholder {
+      color: #8e99a9;
+      @include font(400, 16px, 24em, 16em);
+    }
+  }
+
+  &__comment {
+    padding: 15px;
+
+    width: 100%;
+    margin: 0 0 60px 0;
+    border-radius: 8px;
+    background: #e9edf2;
+    border: none;
+    &::placeholder {
+      color: #8e99a9;
+      @include font(400, 16px, 24em, 16em);
+    }
+  }
+
+  &__button {
+    border-radius: 8px;
+
+    padding: 8px 50px;
+    background: #0075ff;
+    @include font(400, 20px, 32em, 20em);
+    color: #ffffff;
   }
 }
