@@ -15,7 +15,7 @@
   }
 }
 
-.slider {
+.details {
   &__number {
     color: #ffffff;
     @include font(500, 80px, 120em, 80em);
@@ -36,4 +36,10 @@
   &__title {
     @include font(500, 16px, 24em, 16em);
   }
+}
+
+.about-us__details {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
 }

@@ -3,3 +3,27 @@
     background-color: var(--secondary-background-color);
   }
 }
+
+.slider {
+  max-width: 296px;
+  &__item {
+    background: #e9edf2;
+    border-radius: 16px;
+    padding: 0;
+    height: 420px;
+  }
+
+  &__img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 0 0 15px 0;
+  }
+
+  &__text {
+    padding: 0 0 0 16px;
+  }
+
+  &__name {
+    margin: 0 0 10px 0;
+  }
+}
