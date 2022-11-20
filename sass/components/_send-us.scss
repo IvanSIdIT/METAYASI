@@ -1,4 +1,5 @@
 .send-us {
+  padding-bottom: 0;
   &__title {
     margin: 0 0 50px 0;
     @include font(500, 24px, 32em, 24em);
@@ -8,7 +9,10 @@
     color: var(--primary-blue-color);
   }
 
-  border-bottom: 1px solid #e2e7ee;
+  &__content {
+    border-bottom: 1px solid #e2e7ee;
+    padding-bottom: 50px;
+  }
 }
 
 .form {
@@ -37,7 +41,7 @@
 
   &__comment {
     padding: 15px;
-    // max-width: 796px;
+
     width: 100%;
     margin: 0 0 60px 0;
     border-radius: 8px;

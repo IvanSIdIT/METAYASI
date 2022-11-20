@@ -256,8 +256,8 @@ body {
 @media screen and (max-width: 759px) {
   [class*=__container] {
     max-width: 759px;
-    margin: 0 15px;
-    padding: 50px 0px;
+    margin: 0 auto;
+    padding: 50px 15px;
   }
 }
 @media screen and (min-width: 760px) {
@@ -568,6 +568,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  color: #000000;
 }
 .slider__name {
   margin: 0 0 10px 0;
@@ -578,7 +579,7 @@ body {
 }
 
 .send-us {
-  border-bottom: 1px solid #e2e7ee;
+  padding-bottom: 0;
 }
 .send-us__title {
   margin: 0 0 50px 0;
@@ -588,6 +589,10 @@ body {
 }
 .send-us span {
   color: var(--primary-blue-color);
+}
+.send-us__content {
+  border-bottom: 1px solid #e2e7ee;
+  padding-bottom: 50px;
 }
 
 .form__input {

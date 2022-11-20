@@ -3,7 +3,7 @@
     background-color: var(--secondary-background-color);
   }
 }
-// 296px
+
 .slider {
   max-width: 296px;
   &__item {
@@ -22,6 +22,7 @@
   &__text {
     padding: 0 0 0 16px;
     @include font(400, 16px, 24em, 16em);
+    color: #000000;
   }
 
   &__name {
