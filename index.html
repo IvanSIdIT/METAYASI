@@ -355,22 +355,31 @@
               </h2>
 
               <form action="#" class="send-us__form form">
-                <input type="text" placeholder="Your name" class="form__name form__input" />
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  class="form__name form__input input__wrapper"
+                />
                 <input
                   type="text"
                   placeholder="telegram, phone ore email"
-                  class="form__phone form__input"
+                  class="form__phone form__input input__wrapper"
                 />
-                <textarea
-                  name="comment"
-                  cols="30"
-                  rows="10"
-                  placeholder="Comments"
-                  class="form__comment"
-                ></textarea>
+                <div class="text-area__wrapper">
+                  <textarea
+                    name="comment"
+                    cols="30"
+                    rows="10"
+                    placeholder="Comments"
+                    class="form__comment"
+                  ></textarea>
+                </div>
                 <button class="form__button button-reset">Send</button>
               </form>
             </section>
+          </div>
+          <div class="contacts__wrapper">
+            <section class="contacts"></section>
           </div>
         </main>
       </div>
