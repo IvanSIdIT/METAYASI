@@ -1,0 +1,12 @@
+.footer {
+  &__wrapper {
+    background-color: var(--secondary-text-color);
+  }
+
+  &__title {
+    color: #ffffff;
+    margin: 0 0 50px 0;
+
+    @include font(400, 32px, 44em, 32em);
+  }
+}
