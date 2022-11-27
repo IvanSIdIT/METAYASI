@@ -267,7 +267,7 @@ body {
 }
 @media screen and (min-width: 760px) {
   [class*=__container] {
-    width: 680px;
+    width: 760px;
     margin: 0px auto;
     padding: 65px 40px;
   }
@@ -470,8 +470,26 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+@media screen and (min-width: 760px) {
+  .principles__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 .principles__item:not(:last-child) {
   margin: 0 0 50px 0;
+}
+@media screen and (min-width: 760px) {
+  .principles__item {
+    width: calc((100% - 65px) / 2);
+    margin: 0 65px 0 0 !important;
+  }
+}
+.principles .principles__item_1 {
+  margin-right: 0 !important;
 }
 .principles__title {
   color: var(--secondary-text-color);
@@ -492,15 +510,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
-}
-
-.leaders__slider {
-  width: 100%;
-  margin-right: 0 !important;
-}
-
-.leaders__container {
-  min-width: 0;
 }
 
 .leaders {
@@ -546,6 +555,13 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.4666666667;
+}
+.leaders__slider {
+  width: 100%;
+  margin-right: 0 !important;
+}
+.leaders__container {
+  min-width: 0;
 }
 
 .crypto-projects__item {

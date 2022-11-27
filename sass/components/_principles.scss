@@ -1,10 +1,26 @@
 .principles {
   padding-top: 50px;
   padding-bottom: 50px;
+
+  &__list {
+    @media screen and (min-width: 760px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
   &__item {
     &:not(:last-child) {
       margin: 0 0 50px 0;
     }
+    @media screen and (min-width: 760px) {
+      width: calc((100% - 1 * 65px) / 2);
+      margin: 0 65px 0 0 !important;
+    }
+  }
+
+  .principles__item_1 {
+    margin-right: 0 !important;
   }
 
   &__title {
@@ -25,12 +41,4 @@
     color: var(--primary-text-color);
   }
 }
-
-.leaders__slider {
-  width: 100%;
-  margin-right: 0 !important;
-}
-
-.leaders__container {
-  min-width: 0;
-}
+//

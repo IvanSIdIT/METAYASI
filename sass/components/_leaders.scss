@@ -40,4 +40,12 @@
     color: var(--primary-text-color);
     @include font(400, 15px, 22em, 15em);
   }
+  &__slider {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+
+  &__container {
+    min-width: 0;
+  }
 }
