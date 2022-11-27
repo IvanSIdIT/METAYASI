@@ -232,6 +232,11 @@ body {
   font-size: 48px;
   line-height: 1.1666666667;
 }
+@media screen and (min-width: 760px) {
+  .primary__title {
+    margin: 0 0 65px 0;
+  }
+}
 
 .primary__text {
   font-weight: 400;
@@ -264,7 +269,7 @@ body {
   [class*=__container] {
     width: 680px;
     margin: 0px auto;
-    padding: 50px 40px;
+    padding: 65px 40px;
   }
 }
 @media screen and (min-width: 1230px) {
@@ -441,7 +446,7 @@ body {
 }
 @media screen and (min-width: 760px) {
   .details__item {
-    width: 227px;
+    min-width: 227px;
   }
 }
 .details__item:not(:last-child) {

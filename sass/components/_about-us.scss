@@ -47,7 +47,7 @@
     background-color: var(--primary-blue-color);
     border-radius: 8px;
     @media screen and (min-width: 760px) {
-      width: 227px;
+      min-width: 227px;
     }
     &:not(:last-child) {
       margin-right: 5px;
