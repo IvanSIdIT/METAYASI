@@ -334,6 +334,14 @@ body {
   margin: 0 25px 0 0;
 }
 
+.test {
+  display: none;
+}
+
+.testi {
+  display: none !important;
+}
+
 .hero__wrapper {
   position: relative;
   background: -webkit-gradient(linear, left bottom, left top, from(#01e0ff), color-stop(64.58%, #006ded), color-stop(83.44%, #004fe9), color-stop(90.16%, #004ada));
