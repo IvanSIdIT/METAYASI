@@ -8,12 +8,20 @@
   margin-top: 0;
   margin-bottom: 0;
   padding: 225px 15px 40px;
-
+  @media screen and (min-width: 760px) {
+    padding: 324px 40px 70px;
+  }
   &__text {
     color: #fff;
     letter-spacing: -0.02em;
     @include font(500, 32px, 40em, 32em);
     margin: 0 0 35px 0;
+    @media screen and (min-width: 760px) {
+      @include font(500, 48px, 56em, 48em);
+      width: 550px;
+      display: block;
+      margin: 0 0 50px 0;
+    }
   }
 
   &__span {
