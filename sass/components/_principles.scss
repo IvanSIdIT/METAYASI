@@ -12,21 +12,25 @@
   &__item {
     &:not(:last-child) {
       margin: 0 0 50px 0;
+      @media screen and (min-width: 760px) {
+        margin: 0 65px 0 0;
+        &:nth-child(2),
+        &:nth-child(4) {
+          margin-right: 0;
+        }
+        &:nth-child(2),
+        &:nth-child(4) {
+          margin-bottom: 120px;
+        }
+      }
     }
     @media screen and (min-width: 760px) {
       width: calc((100% - 1 * 65px) / 2);
-      margin: 0 65px 0 0 !important;
     }
-  }
-
-  .principles__item_1 {
-    margin-right: 0 !important;
   }
 
   &__title {
     color: var(--secondary-text-color);
-    @include font(500, 47px, 56em, 48em);
-    margin: 0 0 50px 0;
   }
 
   &__type {

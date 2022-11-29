@@ -21,9 +21,10 @@
       margin: 0 15px 0 0;
     }
     @media screen and (min-width: '759px') {
-      width: calc((100% - 2 * 15px) / 3);
+      width: 200px;
     }
   }
+  // width: calc((100% - 2 * 15px) / 3);
 
   &__img {
     border-radius: 8px;
