@@ -208,6 +208,16 @@ body {
   font-size: 20px;
 }
 
+.swiper-pagination-bullet {
+  background-color: var(--primary-blue-color);
+  width: 12px;
+  height: 12px;
+}
+.swiper-pagination-bullet:active {
+  width: 20px;
+  height: 20px;
+}
+
 .primary__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,6 +225,11 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   margin: 0 0 50px 0;
+}
+@media screen and (min-width: 760px) {
+  .primary__list {
+    margin: 0 0 65px 0;
+  }
 }
 .primary__list::-webkit-scrollbar {
   width: 0;
@@ -244,6 +259,15 @@ body {
   line-height: 1.3333333333;
   color: var(--primary-text-color);
   margin: 0 0 50px 0;
+}
+@media screen and (min-width: 760px) {
+  .primary__text {
+    width: calc((100% - 50px) / 2);
+    display: block;
+  }
+  .primary__text:not(:last-child) {
+    margin: 0 50px 0 0;
+  }
 }
 
 .secondary__text {
@@ -569,6 +593,8 @@ body {
 
 .crypto-projects__item {
   padding: 8px 125px 16px 8px;
+  background: #f8fbfd;
+  border-radius: 8px;
   border-radius: 8px;
 }
 .crypto-projects__item:not(:last-child) {
@@ -581,6 +607,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+@media screen and (min-width: 760px) {
+  .crypto-projects__text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .virtual__wrapper {
@@ -603,30 +636,38 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-.virtual__text {
-  margin: 0 0 50px 0;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.3333333333;
+.virtual__text:nth-child(1) {
   color: #ffffff;
-}
-.virtual__text-second {
-  margin: 0 0 0 0;
-  color: var(--primary-blue-color);
 }
 .virtual__title {
   color: #ffffff;
+}
+@media screen and (min-width: 760px) {
+  .virtual__text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .data__item {
   margin: 0 10px 0 0;
   padding: 8px 125px 16px 8px;
+  background: #f8fbfd;
+  border-radius: 8px;
 }
 .data__type {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+@media screen and (min-width: 760px) {
+  .data__text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .projects__wrapper {
