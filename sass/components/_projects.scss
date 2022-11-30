@@ -6,17 +6,28 @@
 
 .slider {
   max-width: 465px;
+  @media screen and (min-width: 760px) {
+    max-width: 680px;
+  }
   &__item {
     background: #e9edf2;
     border-radius: 16px;
     padding: 0;
     height: 420px;
+    @media screen and (min-width: 760px) {
+      display: flex;
+      height: 320px;
+    }
   }
 
   &__img {
     width: 100%;
     border-radius: 8px;
     margin: 0 0 15px 0;
+    @media screen and (min-width: 760px) {
+      width: 453px;
+      height: 100%;
+    }
   }
 
   &__text {
