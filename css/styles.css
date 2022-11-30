@@ -209,8 +209,8 @@ body {
 }
 
 .swiper-pagination {
-  z-index: 10;
-  bottom: -10px !important;
+  position: relative;
+  top: 32px !important;
 }
 
 .swiper-pagination-bullet {
