@@ -16,7 +16,7 @@
     height: 420px;
     @media screen and (min-width: 760px) {
       display: flex;
-      height: 320px;
+      height: 280px;
     }
   }
 
@@ -28,10 +28,14 @@
       width: 453px;
       height: 100%;
     }
+
+    @media screen and (min-width: 760px) {
+      margin: 0 0 0 0;
+    }
   }
 
   &__text {
-    padding: 0 0 0 16px;
+    padding: 16px;
     @include font(400, 16px, 24em, 16em);
     color: #000000;
   }
