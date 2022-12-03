@@ -11,6 +11,9 @@
   @media screen and (min-width: 760px) {
     padding: 324px 40px 70px;
   }
+  @media screen and (min-width: 1080px) {
+    padding: 210px 80px 95px;
+  }
   &__text {
     color: #fff;
     letter-spacing: -0.02em;
@@ -21,6 +24,11 @@
       width: 550px;
       display: block;
       margin: 0 0 50px 0;
+    }
+    @media screen and (min-width: 1080px) {
+      @include font(500, 64px, 72em, 64em);
+      width: 710px;
+      margin: 0 0 60px 0;
     }
   }
 
@@ -34,5 +42,8 @@
     color: var(--secondary-text-color);
     border-radius: 8px;
     padding: 10px 50px;
+    @media screen and (min-width: 1080px) {
+      padding: 15px 50px;
+    }
   }
 }

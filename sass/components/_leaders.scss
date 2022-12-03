@@ -11,9 +11,9 @@
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
-    &::-webkit-scrollbar {
-      width: 0;
-    }
+    // &::-webkit-scrollbar {
+    //   width: 0;
+    // }
   }
 
   &__item {
