@@ -59,9 +59,9 @@ body {
   @media screen and (max-width: 1080px) {
     margin: 0 auto;
   }
-  &:-webkit-scrollbar {
-    width: 40;
-  }
+  // &:-webkit-scrollbar {
+  //   width: 40;
+  // }
 }
 
 .button-reset {

@@ -248,9 +248,6 @@ body {
     margin: 0 auto;
   }
 }
-.primary__list:-webkit-scrollbar {
-  width: 40;
-}
 
 .button-reset {
   border: none;
@@ -632,9 +629,6 @@ body {
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
-}
-.leaders__list::-webkit-scrollbar {
-  width: 0;
 }
 .leaders__item:not(:last-child) {
   margin: 0 15px 0 0;
