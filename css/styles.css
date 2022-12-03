@@ -248,6 +248,9 @@ body {
     margin: 0 auto;
   }
 }
+.primary__list:-webkit-scrollbar {
+  width: 40;
+}
 
 .button-reset {
   border: none;
@@ -264,6 +267,14 @@ body {
 @media screen and (min-width: 760px) {
   .primary__title {
     margin: 0 0 65px 0;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .primary__title {
+    margin: 0 0 80px 0;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 1.125;
   }
 }
 
@@ -453,7 +464,6 @@ body {
 
 .about-us {
   padding-top: 150px;
-  padding-bottom: 180px;
 }
 .about-us__wrapper {
   border-radius: 24px 24px 0 0;
@@ -586,11 +596,25 @@ body {
   color: var(--primary-blue-color);
   margin: 0 0 15px 0;
 }
+@media screen and (min-width: 1080px) {
+  .principles__type {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
 .principles__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
+}
+@media screen and (min-width: 1080px) {
+  .principles__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.6;
+  }
 }
 
 .leaders {
@@ -609,6 +633,9 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
 }
+.leaders__list::-webkit-scrollbar {
+  width: 0;
+}
 .leaders__item:not(:last-child) {
   margin: 0 15px 0 0;
 }
@@ -617,9 +644,23 @@ body {
     width: 200px;
   }
 }
+@media screen and (min-width: 1080px) {
+  .leaders__item {
+    margin: 0 19px 0 0;
+    width: calc((100% - 19px) / 3);
+    height: 395px;
+  }
+}
 .leaders__img {
   border-radius: 8px;
   margin: 0 0 20px 0;
+}
+@media screen and (min-width: 1080px) {
+  .leaders__img {
+    border-radius: 15px;
+    width: 100%;
+    height: 288px;
+  }
 }
 .leaders__name {
   color: var(--secondary-text-color);
@@ -628,18 +669,18 @@ body {
   line-height: 1.4;
   margin: 0 0 10px 0;
 }
+@media screen and (min-width: 1080px) {
+  .leaders__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.1666666667;
+  }
+}
 .leaders__job {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 15px;
   line-height: 1.4666666667;
-}
-.leaders__slider {
-  width: 100%;
-  margin-right: 0 !important;
-}
-.leaders__container {
-  min-width: 0;
 }
 
 .crypto-projects__item {
