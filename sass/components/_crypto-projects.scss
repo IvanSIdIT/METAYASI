@@ -1,15 +1,17 @@
 .crypto-projects {
   &__list {
-    &::-webkit-scrollbar {
-      width: 7px;
-    }
-    &::-webkit-scrollbar-track {
-      background: rgb(150, 142, 142);
-      border-radius: 9px;
-    }
-    &::-webkit-scrollbar-thumb {
-      background: var(--primary-blue-color);
-      border-radius: 8px;
+    @media screen and (min-width: 1080px) {
+      &::-webkit-scrollbar {
+        width: 7px;
+      }
+      &::-webkit-scrollbar-track {
+        background: rgb(150, 142, 142);
+        border-radius: 9px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: var(--primary-blue-color);
+        border-radius: 8px;
+      }
     }
   }
 
