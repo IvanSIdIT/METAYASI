@@ -144,7 +144,7 @@
               <ul class="leaders__list">
                 <li class="leaders__item">
                   <picture>
-                    <source srcset="./images/Rectangle24.jpg" />
+                    <source srcset="./images/leaders/1HQ.jpg" />
 
                     <source
                       srcset="./images/leaders/1.webp 1x,
@@ -203,11 +203,16 @@
 
               <ul class="crypto-projects__list primary__list">
                 <li class="crypto-projects__item">
-                  <img
-                    class="crypto-projects__img"
-                    src="./images/crypto-project__mob.png"
-                    alt="crypto-project"
-                  />
+                  <picture>
+                    <source srcset="./images/crypto-project__mob.png" media="max-width:1080" />
+                    <source srcset="./images/crypto-project__tab.png" media="min-width:1080" />
+
+                    <img
+                      class="crypto-projects__img"
+                      src="./images/crypto-project__mob.png"
+                      alt="crypto-project"
+                    />
+                  </picture>
                   <h3 class="crypto-projects__type">Exchanges</h3>
                 </li>
                 <li class="crypto-projects__item">
