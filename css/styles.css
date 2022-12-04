@@ -759,6 +759,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
+@media screen and (min-width: 1080px) {
+  .virtual__item {
+    padding: 16px 136px 16px 16px;
+  }
+}
 .virtual__img {
   margin: 0 0 15px 0;
 }

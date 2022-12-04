@@ -10,6 +10,9 @@
     background: rgba(248, 251, 253, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
+    @media screen and (min-width: 1080px) {
+      padding: 16px 136px 16px 16px;
+    }
   }
 
   &__img {
