@@ -21,6 +21,9 @@
     padding-bottom: 50px;
     padding-left: 15px;
     padding-right: 15px;
+    @media screen and (min-width: 1080px) {
+      padding-bottom: 65px;
+    }
   }
 }
 

@@ -6,6 +6,9 @@
       flex-wrap: wrap;
       margin: 0 0 65px 0;
     }
+    @media screen and (min-width: 1080px) {
+      margin: 0 0 120px 0;
+    }
   }
   &__type {
     margin: 0 0 15px 0;
@@ -33,6 +36,9 @@
   margin: 0 0 50px 0;
   @media screen and (min-width: 760px) {
     margin: 0 0 65px 0;
+  }
+  @media screen and (min-width: 1080px) {
+    margin: 0 0 120px 0;
   }
 
   &__title {
