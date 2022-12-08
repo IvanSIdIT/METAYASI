@@ -146,9 +146,7 @@
                   <picture>
                     <source srcset="./images/leaders/1HQ.jpg" />
 
-                    <source
-                      srcset="./images/leaders/1.webp 1x,
-                     ./images/leaders/1x2.webp x2" />
+                    <source srcset="./images/leaders/1.webp 1x, ./images/leaders/1x2.webp 2x" />
 
                     <img
                       class="leaders__img"
@@ -171,7 +169,7 @@
                     <img
                       class="leaders__img"
                       src="./images/leaders/2.png"
-                      srcset="./images/leaders/2x2.jpg x2"
+                      srcset="./images/leaders/2x2.jpg 2x"
                       alt="leaders2"
                       width="200"
                       height="200"
@@ -189,7 +187,7 @@
                     <img
                       class="leaders__img"
                       src="./images/leaders/3.png"
-                      srcset="./images/leaders/3x2.jpg x2"
+                      srcset="./images/leaders/3x2.jpg 2x"
                       alt="leader3"
                       width="200"
                       height="200"
@@ -416,8 +414,15 @@
               <div class="swiper projects__slider slider">
                 <div class="swiper-wrapper slider__wrapper">
                   <div class="swiper-slide slider__item">
-                    <picture
-                      ><img src="./images/projects/1_mob@x1.jpg" alt="" class="slider__img"
+                    <picture>
+                      <source srcset="./images/projects/1_pcHQ@1x.png" media="(min-width:1080px)" />
+                      <source
+                        srcset="
+                          ./images/projects/1_mob@x1.jpg 1x,
+                          ./images/projects/1_mob@x2.jpg 2x
+                        " />
+
+                      <img src="./images/projects/1_mob@x1.jpg" alt="" class="slider__img"
                     /></picture>
                     <div class="slider__text">
                       <h3 class="slider__name">Orica</h3>
@@ -427,8 +432,14 @@
                     </div>
                   </div>
                   <div class="swiper-slide slider__item">
-                    <picture
-                      ><img src="./images/projects/2_mob@x1.jpg" alt="" class="slider__img"
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/projects/2_mob@x1.jpg 1x,
+                          ./images/projects/2_mob@x2.jpg 2x
+                        " />
+
+                      <img src="./images/projects/2_mob@x1.jpg" alt="" class="slider__img"
                     /></picture>
                     <div class="slider__text">
                       <h3 class="slider__name">Punkcats</h3>
@@ -439,8 +450,14 @@
                     </div>
                   </div>
                   <div class="swiper-slide slider__item">
-                    <picture
-                      ><img src="./images/projects/3_mob@x1.jpg" alt="" class="slider__img"
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/projects/3_mob@x1.jpg 1x,
+                          ./images/projects/3_mob@x2.jpg 2x
+                        " />
+
+                      <img src="./images/projects/3_mob@x1.jpg" alt="" class="slider__img"
                     /></picture>
                     <div class="slider__text">
                       <h3 class="slider__name">DigiCol</h3>
@@ -451,8 +468,14 @@
                     </div>
                   </div>
                   <div class="swiper-slide slider__item">
-                    <picture
-                      ><img src="./images/projects/4_mob@x1.jpg" alt="" class="slider__img"
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/projects/4_mob@x1.jpg 1x,
+                          ./images/projects/4_mob@x2.jpg 2x
+                        " />
+
+                      <img src="./images/projects/4_mob@x1.jpg" alt="" class="slider__img"
                     /></picture>
                     <div class="slider__text">
                       <h3 class="slider__name">RPGC Token</h3>
