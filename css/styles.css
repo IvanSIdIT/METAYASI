@@ -499,6 +499,7 @@ body {
     font-weight: 500;
     font-size: 48px;
     line-height: 1.25;
+    width: 795px;
   }
 }
 @media screen and (min-width: 760px) {
@@ -533,6 +534,21 @@ body {
   }
 }
 
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+@media screen and (min-width: 1440px) {
+  .details {
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .details__number {
   color: #ffffff;
   font-weight: 500;
@@ -560,18 +576,6 @@ body {
   line-height: 1.5;
 }
 
-.about-us__details {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-.principles {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 @media screen and (min-width: 760px) {
   .principles__list {
     display: -webkit-box;

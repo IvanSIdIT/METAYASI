@@ -14,6 +14,7 @@
     @include font(500, 24px, 32em, 24em);
     @media screen and (min-width: 1080px) {
       @include font(500, 48px, 60em, 48em);
+      width: 795px;
     }
   }
 
@@ -43,6 +44,13 @@
 }
 
 .details {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  @media screen and (min-width: 1440px) {
+    margin: 0 auto;
+    justify-content: center;
+  }
   &__number {
     color: #ffffff;
     @include font(500, 80px, 120em, 80em);
@@ -65,10 +73,4 @@
   &__title {
     @include font(500, 16px, 24em, 16em);
   }
-}
-
-.about-us__details {
-  display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
 }
