@@ -14,6 +14,9 @@
   @media screen and (min-width: 1080px) {
     padding: 210px 80px 95px;
   }
+  @media screen and (min-width: 1440px) {
+    padding: 350px 120px 105px;
+  }
   &__text {
     color: #fff;
     letter-spacing: -0.02em;
@@ -29,6 +32,11 @@
       @include font(500, 64px, 72em, 64em);
       width: 710px;
       margin: 0 0 60px 0;
+    }
+    @media screen and (min-width: 1440px) {
+      @include font(500, 72px, 80em, 72em);
+      width: 800px;
+      margin: 0 0 85px 0;
     }
   }
 

@@ -446,6 +446,11 @@ body {
     padding: 210px 80px 95px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .hero {
+    padding: 350px 120px 105px;
+  }
+}
 .hero__text {
   color: #fff;
   letter-spacing: -0.02em;
@@ -471,6 +476,15 @@ body {
     line-height: 1.125;
     width: 710px;
     margin: 0 0 60px 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__text {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 1.1111111111;
+    width: 800px;
+    margin: 0 0 85px 0;
   }
 }
 .hero__span {
