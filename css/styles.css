@@ -987,6 +987,11 @@ body {
     padding-bottom: 65px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .send-us__content {
+    padding-bottom: 120px;
+  }
+}
 
 .form__input {
   display: block;
@@ -1117,6 +1122,11 @@ body {
     margin: 0 0 120px 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .contacts__list {
+    margin: 0 65px 0 0;
+  }
+}
 .contacts__type {
   margin: 0 0 15px 0;
   color: var(--primary-text-color);
@@ -1139,6 +1149,13 @@ body {
   .contacts__item:not(:last-child) {
     margin: 0 65px 0 0;
   }
+}
+.contacts__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .location {
