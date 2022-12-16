@@ -1,11 +1,15 @@
 .data {
   &__item {
-    margin: 0 10px 0 0;
-    padding: 8px 125px 16px 8px;
+    padding: 8px 95px 16px 8px;
     background: #f8fbfd;
     border-radius: 8px;
+
+    &:not(:last-child) {
+      margin: 0 10px 0 0;
+    }
+
     @media screen and (min-width: 1080px) {
-      padding: 16px 172px 16px 16px;
+      padding: 8px 132px 16px 8px;
     }
   }
 
