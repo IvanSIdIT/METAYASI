@@ -708,8 +708,13 @@ body {
 @media screen and (min-width: 1080px) {
   .leaders__item {
     margin: 0 19px 0 0;
-    width: calc((100% - 19px) / 3);
+    width: 290px;
     height: 395px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .leaders__item:not(:last-child) {
+    margin: 0 65px 0 0;
   }
 }
 .leaders__img {

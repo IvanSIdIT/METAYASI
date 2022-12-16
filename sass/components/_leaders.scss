@@ -25,8 +25,13 @@
     }
     @media screen and (min-width: '1080px') {
       margin: 0 19px 0 0;
-      width: calc((100% - 1 * 19px) / 3);
+      width: 290px;
       height: 395px;
+    }
+    @media screen and (min-width: '1440px') {
+      &:not(:last-child) {
+        margin: 0 65px 0 0;
+      }
     }
   }
 
