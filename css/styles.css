@@ -881,6 +881,11 @@ body {
     min-width: 920px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .slider {
+    min-width: 1200px;
+  }
+}
 .slider__item {
   background: #e9edf2;
   border-radius: 16px;
@@ -897,8 +902,12 @@ body {
 }
 @media screen and (min-width: 1080px) {
   .slider__item {
-    width: 920px;
-    height: 320%;
+    height: 320px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .slider__item {
+    height: 433px;
   }
 }
 .slider__img {
@@ -915,7 +924,11 @@ body {
 @media screen and (min-width: 1080px) {
   .slider__img {
     width: 600px;
-    height: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .slider__img {
+    width: 765px;
   }
 }
 @media screen and (min-width: 760px) {
