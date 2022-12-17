@@ -41,7 +41,9 @@
   &__copyright {
     color: #ffffff;
     @include font(400, 16px, 24em, 16em);
-    width: 240px;
+    @media screen and (max-width: 1439px) {
+      width: 240px;
+    }
   }
 }
 
