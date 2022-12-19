@@ -424,6 +424,21 @@ body {
   }
 }
 
+.mobile-nav {
+  background-color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  display: none;
+}
+.mobile-nav.is-open {
+  display: block;
+}
+
+.header__mob-switch.button-reset.is-open .icon-menu {
+  stroke: #000000;
+}
+
 .hero__wrapper {
   position: relative;
   background: -webkit-gradient(linear, left bottom, left top, from(#01e0ff), color-stop(64.58%, #006ded), color-stop(83.44%, #004fe9), color-stop(90.16%, #004ada));
