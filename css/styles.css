@@ -425,18 +425,37 @@ body {
 }
 
 .mobile-nav {
+  width: 303px;
+  height: 437px;
+  padding: 24px 16px;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   background-color: #ffffff;
   position: absolute;
   top: 30%;
-  left: 70%;
-  display: none;
+  right: 24px;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 250ms;
+  -o-transition: 250ms;
+  transition: 250ms;
 }
 .mobile-nav.is-open {
-  display: block;
-}
-
-.header__mob-switch.button-reset.is-open .icon-menu {
-  stroke: #000000;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 250ms;
+  -o-transition: 250ms;
+  transition: 250ms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .hero__wrapper {
